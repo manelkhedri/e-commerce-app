@@ -13,16 +13,17 @@ The main goal is to create an attractive, user-friendly shopping interface while
 
 # Technologies Used
 
-Technology| Purpose
-React| Building the user interface with reusable components
-Vite| Development server and production build tool
-JavaScript (ES6+)| Application logic and interactivity
-Redux Toolkit| Managing the shopping cart state
-React Redux| Connecting React components to the Redux store
-HTML5| Structuring the application
-CSS3| Styling and designing the interface
-Git & GitHub| Version control and source code hosting
-GitHub Pages| Deploying the application online
+| Technology | Purpose |
+|:---|:---|
+|React| Building the user interface with reusable components |
+|Vite| Development server and production build tool |
+|JavaScript (ES6+)| Application logic and interactivity |
+|Redux Toolkit| Managing the shopping cart state |
+|React Redux| Connecting React components to the Redux store |
+|HTML5| Structuring the application |
+|CSS3| Styling and designing the interface |
+|Git & GitHub| Version control and source code hosting |
+|GitHub Pages| Deploying the application online |
 
 # Main React Components
 
