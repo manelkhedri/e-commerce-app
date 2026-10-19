@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       <header className="store-header">
         <img
-         src="/logo.jpg"
+         src={`${import.meta.env.BASE_URL}logo.jpg`}
          alt="THREADS CROCHET LOGO"
          className='store-logo'
          />

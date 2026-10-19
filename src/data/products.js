@@ -6,7 +6,7 @@ const products = [
     category: "Keychains",
     type: "Fruit",
     price: 500,
-    image: "/strowberry.jpg",
+    image: `${import.meta.env.BASE_URL}strowberry.jpg`,
     description: "Handmade crochet strawberry keychain",
   },
   {
@@ -15,7 +15,7 @@ const products = [
     category: "Keychains",
     type: "Letter",
     price: 600,
-    image: "/aletter.jpg",
+    image: `${import.meta.env.BASE_URL}aletter.jpg`,
     description: "Personalized crochet letter keychain",
   },
   {
@@ -24,7 +24,7 @@ const products = [
     category: "Keychains",
     type: "Flower",
     price: 500,
-    image: "/flower.jpg",
+    image: `${import.meta.env.BASE_URL}flower.jpg`,
     description: "Cute handmade crochet flower keychain",
   },
 
@@ -35,7 +35,7 @@ const products = [
     category: "Gloves",
     type: "Full Finger",
     price: 2000,
-    image: "/fullfing.jpg",
+    image: `${import.meta.env.BASE_URL}fullfing.jpg`,
     description: "Warm handmade crochet gloves covering all fingers",
   },
   {
@@ -44,7 +44,7 @@ const products = [
     category: "Gloves",
     type: "Fingerless",
     price: 1800,
-    image: "/fingless.jpg",
+    image: `${import.meta.env.BASE_URL}fingless.jpg`,
     description: "Comfortable crochet gloves with exposed fingers",
   },
   {
@@ -53,7 +53,7 @@ const products = [
     category: "Gloves",
     type: "Floral",
     price: 2200,
-    image: "/floglo.jpg",
+    image: `${import.meta.env.BASE_URL}floglo.jpg`,
     description: "Fingerless crochet gloves with a floral design",
   },
 
@@ -64,7 +64,7 @@ const products = [
     category: "Bags",
     type: "Small",
     price: 2500,
-    image: "/minibag.jpg",
+    image: `${import.meta.env.BASE_URL}minibag.jpg`,
     description: "Small handmade crochet bag for everyday essentials",
   },
   {
@@ -73,7 +73,7 @@ const products = [
     category: "Bags",
     type: "Medium",
     price: 3500,
-    image: "/dailybag.jpg",
+    image: `${import.meta.env.BASE_URL}dailybag.jpg`,
     description: "Medium-sized crochet bag for daily use",
   },
   {
@@ -82,7 +82,7 @@ const products = [
     category: "Bags",
     type: "Large",
     price: 4500,
-    image: "/largebag.jpg",
+    image: `${import.meta.env.BASE_URL}largebag.jpg`,
     description: "Large handmade crochet tote bag",
   },
 
@@ -93,7 +93,7 @@ const products = [
     category: "Table Decor",
     type: "Round",
     price: 1200,
-    image: "/round.jpg",
+    image: `${import.meta.env.BASE_URL}round.jpg`,
     description: "Round handmade crochet table decoration",
   },
   {
@@ -102,7 +102,7 @@ const products = [
     category: "Table Decor",
     type: "Rectangular",
     price: 2500,
-    image: "/rectongular.jpg",
+    image: `${import.meta.env.BASE_URL}rectongular.jpg`,
     description: "Rectangular crochet decoration for your table",
   },
   {
@@ -111,7 +111,7 @@ const products = [
     category: "Table Decor",
     type: "Heart",
     price: 1500,
-    image: "/heart.jpg",
+    image: `${import.meta.env.BASE_URL}heart.jpg`,
     description: "Heart-shaped handmade crochet table decoration",
   },
 
@@ -123,7 +123,7 @@ const products = [
     type: "Clothing",
     size: "M",
     price: 4500,
-    image: "/Mvest.jpg",
+    image: `${import.meta.env.BASE_URL}Mvest.jpg`,
     description: "Handmade crochet vest in size M",
   },
   {
@@ -133,7 +133,7 @@ const products = [
     type: "Clothing",
     size: "L",
     price: 4800,
-    image: "/lvest.jpg",
+    image: `${import.meta.env.BASE_URL}lvest.jpg`,
     description: "Handmade crochet vest in size L",
   },
   {
@@ -143,7 +143,7 @@ const products = [
     type: "Clothing",
     size: "XL",
     price: 5200,
-    image: "/xlvest.jpg",
+    image: `${import.meta.env.BASE_URL}xlvest.jpg`,
     description: "Handmade crochet vest in size XL",
   },
 ];
